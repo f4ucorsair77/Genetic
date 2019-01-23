@@ -1,0 +1,7 @@
+#ifndef GENETIC_H
+#define GENETIC_H
+
+#define Genetic_VERSION_MAJOR @Genetic_VERSION_MAJOR@
+#define Genetic_VERSION_MINOR @Genetic_VERSION_MINOR@
+
+#endif

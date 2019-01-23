@@ -7,13 +7,15 @@
 
 #include "population.h"
 #include <iostream>
+#include <stdlib.h>
 #include "GenoType.h"
 
 
-population::population(const unsigned populationSize) {
+population::population(const unsigned populationSize=100) {
 	// TODO Auto-generated constructor stub
     populationSize_ = populationSize;
     mutation_rate_ = 0.0;
+	pop_ = NULL ;
     pop_ = new GenoType[populationSize_];
 
 

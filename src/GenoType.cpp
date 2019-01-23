@@ -30,9 +30,9 @@ bool GenoType::setLength(const unsigned length) {
 
     	for (int i=0;i<length_;i++) {
     		gene[i]=getRandomDouble();
-    		std::cout<<gene[i]<<",";
+    		//std::cout<<gene[i]<<",";
     	}
-    	std::cout<<std::endl;
+    	//std::cout<<std::endl;
     }
     return true;
 }

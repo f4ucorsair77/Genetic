@@ -1,0 +1,2 @@
+/home/dev1/workspace/Genetic/bin/GenoType_test
+/home/dev1/workspace/Genetic/lib/libgenetic.a

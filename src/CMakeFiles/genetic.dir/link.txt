@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgenetic.a  CMakeFiles/genetic.dir/population.cpp.o CMakeFiles/genetic.dir/GenoType.cpp.o
+/usr/bin/ranlib libgenetic.a

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dev1/workspace/Genetic/src/GenoType.cpp
+GenoType.h
+/home/dev1/workspace/Genetic/src/GenoType.h
+iostream
+-
+cstdlib
+-
+time.h
+-
+
+/home/dev1/workspace/Genetic/src/population.cpp
+population.h
+/home/dev1/workspace/Genetic/src/population.h
+iostream
+-
+stdlib.h
+-
+GenoType.h
+/home/dev1/workspace/Genetic/src/GenoType.h
+
+inc/GenoType.h
+
+inc/population.h
+

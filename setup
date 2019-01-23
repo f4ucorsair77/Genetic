@@ -1,0 +1,6 @@
+export PROJECT_SOURCE_DIR="/home/dev1/workspace/Genetic/src"
+export PROJECT_INC_DIR="/home/dev1/workspace/Genetic/inc"
+export PROJECT_DIR="/home/dev1/workspace/Genetic"
+
+# export CXX=g++
+# export CC=gcc

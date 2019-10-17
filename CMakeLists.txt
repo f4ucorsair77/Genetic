@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(genetic_project)
+set(PROJECT_DIR .)
+add_subdirectory(src)
+add_subdirectory(UnitTest)

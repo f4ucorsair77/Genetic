@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(geneticlib_project)
+add_library(genetic SHARED GenoType.cpp population.cpp)
+install(TARGETS genetic DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../lib)
+install(FILES GenoType.h population.h DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../include)
